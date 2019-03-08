@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F06292"
+    tools:context=".MainActivity">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="6dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/editText"
+            android:layout_margin="15dp"
+            android:layout_toRightOf="@id/btn1"
+            android:background="@drawable/button_background"
+            android:text="Clear"
+            android:textColor="@color/colorAccent"
+            android:textSize="25sp" />
+        <Button
+            android:id="@+id/btn_email"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/btn_sms"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/button_background"
+            android:text="Email"
+            android:textColor="@color/colorAccent"
+            android:textSize="25sp" />
+        <Button
+            android:id="@+id/btn_share"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/btn_email"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/button_background"
+            android:text="Share"
+            android:textColor="@color/colorAccent"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/btn_sms"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/btn_call"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/button_background"
+            android:text="Message"
+            android:textColor="@color/colorAccent"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/btn_call"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/btn1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/button_background"
+            android:text="Call"
+            android:textColor="@color/colorAccent"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/editText"
+            android:layout_margin="15dp"
+            android:background="@drawable/button_background"
+            android:text="Ok"
+            android:textColor="@color/colorAccent"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_below="@+id/textView"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:ems="10"
+            android:paddingLeft="12dp"
+            android:textSize="22sp"
+            android:background="@drawable/roundshapebtn"
+            android:hint=" Enter Text Here..."
+            android:inputType="textPersonName|textImeMultiLine" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="30dp"
+            android:gravity="center"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:text="Write Text Here..."
+            android:textSize="30sp" />
+    </RelativeLayout>
+</ScrollView>
+
+</RelativeLayout>
